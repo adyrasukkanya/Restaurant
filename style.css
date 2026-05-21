@@ -36,13 +36,13 @@
     margin-right:10px;
 }
 
-.nav ul{
+.nav .ul{
     display:flex;
     list-style:none;
 }
 
 
-.nav a{
+.nav .a{
     text-decoration:none;
     color:rgb(91, 246, 171);
     margin: 20px;
@@ -75,7 +75,7 @@
     width:50%;
 }
 
-.hero-text h2{
+.hero-text .h2{
     margin-bottom:15px;
 }
 
@@ -96,7 +96,7 @@
     padding:20px;
 }
 
-.menu h2{
+.menu .h2{
     margin-bottom:20px;
 }
 
@@ -106,7 +106,7 @@
     justify-content:center;
 }
 
-.item img{
+.item .img{
     margin:40px;
     text-align:center;
     width:150px;
@@ -140,11 +140,11 @@
     border-collapse:collapse;
 }
 
-.table, th, td{
+.table, .th, .td{
     border:1px solid white;
 }
 
-.th, td{
+.th, .td{
     padding:15px;
     text-align:center;
 }
