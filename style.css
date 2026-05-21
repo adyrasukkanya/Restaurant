@@ -70,6 +70,7 @@ nav a:hover{
     align-items:center;
 }
 
+
 .hero-text{
     width:50%;
 }
@@ -109,8 +110,8 @@ nav a:hover{
     margin:40px;
     text-align:center;
     width:150px;
-    height: 100px;
-    margin-bottom: 50px;
+    height: 175px;
+    margin-bottom: 20px;
 }
 
 
@@ -168,4 +169,17 @@ footer{
 
 .footer-box p{
     margin-bottom:10px;
+}
+
+.hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 50px;
+}
+
+.hero-image img{
+    width: 300px;
+    height: 275px;
+   border-radius: 10px;
 }
