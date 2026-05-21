@@ -11,13 +11,13 @@ body{
 }
 
 /* HEADER */
-header{
+.header{
     border:1px solid white;
     padding:20px;
     margin:20px;
 }
 
-nav{
+.nav{
     display:flex;
     justify-content:space-between;
     align-items:center;
@@ -36,19 +36,19 @@ nav{
     margin-right:10px;
 }
 
-nav ul{
+.nav ul{
     display:flex;
     list-style:none;
 }
 
 
-nav a{
+.nav a{
     text-decoration:none;
     color:rgb(91, 246, 171);
     margin: 20px;
 }
 
-nav a:hover{
+.nav a:hover{
     color: #3443cd;
     text-decoration: underline;
 }
@@ -135,22 +135,22 @@ nav a:hover{
     margin-bottom:20px;
 }
 
-table{
+.table{
     width:100%;
     border-collapse:collapse;
 }
 
-table, th, td{
+.table, th, td{
     border:1px solid white;
 }
 
-th, td{
+.th, td{
     padding:15px;
     text-align:center;
 }
 
 /* FOOTER */
-footer{
+.footer{
     border:1px solid white;
     margin:20px;
     padding:30px;
